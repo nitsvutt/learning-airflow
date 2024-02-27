@@ -1,0 +1,34 @@
+[2024-02-27T16:13:03.457+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: python_operator.print_execution_date scheduled__2024-01-01T03:00:00+00:00 [queued]>
+[2024-02-27T16:13:03.465+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: python_operator.print_execution_date scheduled__2024-01-01T03:00:00+00:00 [queued]>
+[2024-02-27T16:13:03.465+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2024-02-27T16:13:03.475+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): print_execution_date> on 2024-01-01 03:00:00+00:00
+[2024-02-27T16:13:03.479+0000] {standard_task_runner.py:60} INFO - Started process 91 to run task
+[2024-02-27T16:13:03.481+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'python_operator', 'print_execution_date', 'scheduled__2024-01-01T03:00:00+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/python_operator.py', '--cfg-path', '/tmp/tmpnkq8_a8q']
+[2024-02-27T16:13:03.482+0000] {standard_task_runner.py:88} INFO - Job 16: Subtask print_execution_date
+[2024-02-27T16:13:03.554+0000] {task_command.py:423} INFO - Running <TaskInstance: python_operator.print_execution_date scheduled__2024-01-01T03:00:00+00:00 [running]> on host 1927bc465fbc
+[2024-02-27T16:13:03.690+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vutt' AIRFLOW_CTX_DAG_ID='python_operator' AIRFLOW_CTX_TASK_ID='print_execution_date' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T03:00:00+00:00'
+[2024-02-27T16:13:03.691+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/***/utils/context.py:315: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2024-02-27T16:13:03.691+0000] {logging_mixin.py:188} INFO - 2024-01-01 03:00:00+00:00
+[2024-02-27T16:13:03.691+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-02-27T16:13:03.706+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=python_operator, task_id=print_execution_date, execution_date=20240101T030000, start_date=20240227T161303, end_date=20240227T161303
+[2024-02-27T16:13:03.733+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-27T16:13:03.757+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-02-27T16:13:43.243+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: python_operator.print_execution_date scheduled__2024-01-01T03:00:00+00:00 [queued]>
+[2024-02-27T16:13:43.254+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: python_operator.print_execution_date scheduled__2024-01-01T03:00:00+00:00 [queued]>
+[2024-02-27T16:13:43.255+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2024-02-27T16:13:43.273+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): print_execution_date> on 2024-01-01 03:00:00+00:00
+[2024-02-27T16:13:43.278+0000] {standard_task_runner.py:60} INFO - Started process 57 to run task
+[2024-02-27T16:13:43.281+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'python_operator', 'print_execution_date', 'scheduled__2024-01-01T03:00:00+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/python_operator.py', '--cfg-path', '/tmp/tmpl53dtdxi']
+[2024-02-27T16:13:43.282+0000] {standard_task_runner.py:88} INFO - Job 25: Subtask print_execution_date
+[2024-02-27T16:13:43.367+0000] {task_command.py:423} INFO - Running <TaskInstance: python_operator.print_execution_date scheduled__2024-01-01T03:00:00+00:00 [running]> on host 1927bc465fbc
+[2024-02-27T16:13:43.501+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vutt' AIRFLOW_CTX_DAG_ID='python_operator' AIRFLOW_CTX_TASK_ID='print_execution_date' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T03:00:00+00:00'
+[2024-02-27T16:13:43.503+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/***/utils/context.py:315: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2024-02-27T16:13:43.503+0000] {logging_mixin.py:188} INFO - 2024-01-01 03:00:00+00:00
+[2024-02-27T16:13:43.503+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-02-27T16:13:43.523+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=python_operator, task_id=print_execution_date, execution_date=20240101T030000, start_date=20240227T161343, end_date=20240227T161343
+[2024-02-27T16:13:43.573+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-27T16:13:43.611+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
