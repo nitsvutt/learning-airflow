@@ -170,3 +170,164 @@
 [2024-02-29T16:15:17.832+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:15:17.832+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-02-29T16:15:17.852+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:15:17.852+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
 [2024-02-29T16:15:17.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.086 seconds
+[2024-02-29T16:15:48.618+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:15:48.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:15:48.620+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:15:48.620+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:15:48.636+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:15:48.663+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:15:48.663+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:15:48.683+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:15:48.683+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:15:48.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.088 seconds
+[2024-02-29T16:16:19.466+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:16:19.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:16:19.468+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:16:19.467+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:16:19.482+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:16:19.508+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:16:19.508+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:16:19.525+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:16:19.525+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:16:19.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.076 seconds
+[2024-02-29T16:16:50.262+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:16:50.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:16:50.265+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:16:50.265+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:16:50.281+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:16:50.316+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:16:50.315+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:16:50.335+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:16:50.335+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:16:50.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.095 seconds
+[2024-02-29T16:17:21.083+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:17:21.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:17:21.085+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:17:21.085+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:17:21.099+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:17:21.124+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:17:21.124+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:17:21.141+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:17:21.140+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:17:21.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.078 seconds
+[2024-02-29T16:17:51.820+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:17:51.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:17:51.822+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:17:51.822+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:17:51.838+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:17:51.862+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:17:51.862+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:17:51.881+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:17:51.881+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:17:51.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.084 seconds
+[2024-02-29T16:18:22.765+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:18:22.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:18:22.767+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:18:22.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:18:22.783+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:18:22.809+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:18:22.809+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:18:22.828+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:18:22.828+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:18:22.845+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.082 seconds
+[2024-02-29T16:18:53.694+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:18:53.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:18:53.697+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:18:53.696+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:18:53.710+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:18:53.736+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:18:53.736+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:18:53.753+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:18:53.753+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:18:53.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.081 seconds
+[2024-02-29T16:19:24.576+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:19:24.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:19:24.579+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:19:24.578+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:19:24.595+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:19:24.632+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:19:24.632+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:19:24.654+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:19:24.654+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:19:24.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.098 seconds
+[2024-02-29T16:19:55.334+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:19:55.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:19:55.337+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:19:55.336+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:19:55.353+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:19:55.390+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:19:55.390+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:19:55.413+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:19:55.413+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:19:55.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.110 seconds
+[2024-02-29T16:20:26.331+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:20:26.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:20:26.333+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:20:26.332+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:20:26.346+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:20:26.370+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:20:26.370+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:20:26.388+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:20:26.388+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:20:26.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.081 seconds
+[2024-02-29T16:20:56.916+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:20:56.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:20:56.918+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:20:56.918+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:20:56.934+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:20:56.959+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:20:56.959+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:20:56.979+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:20:56.979+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:20:57.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.088 seconds
+[2024-02-29T16:21:27.944+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:21:27.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:21:27.946+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:21:27.946+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:21:27.963+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:21:27.994+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:21:27.994+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:21:28.015+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:21:28.015+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:21:28.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.091 seconds
+[2024-02-29T16:21:58.888+0000] {processor.py:161} INFO - Started process (PID=302) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:21:58.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:21:58.890+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:21:58.890+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:21:58.905+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:21:58.934+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:21:58.933+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:21:58.953+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:21:58.953+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:21:58.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.087 seconds
+[2024-02-29T16:22:29.852+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:22:29.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:22:29.854+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:22:29.854+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:22:29.872+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:22:29.902+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:22:29.902+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:22:29.922+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:22:29.922+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:22:29.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.096 seconds
+[2024-02-29T16:23:00.751+0000] {processor.py:161} INFO - Started process (PID=328) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:23:00.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:23:00.753+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:23:00.753+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:23:00.770+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:23:00.803+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:23:00.803+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:23:00.824+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:23:00.824+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:23:00.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.095 seconds
+[2024-02-29T16:23:31.905+0000] {processor.py:161} INFO - Started process (PID=341) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:23:31.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:23:31.908+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:23:31.908+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:23:31.928+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:23:31.961+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:23:31.960+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:23:31.983+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:23:31.983+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:23:32.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.098 seconds
+[2024-02-29T16:24:02.835+0000] {processor.py:161} INFO - Started process (PID=354) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:24:02.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:24:02.838+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:24:02.837+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:24:02.856+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:24:02.891+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:24:02.891+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:24:02.912+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:24:02.912+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:24:02.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.095 seconds
+[2024-02-29T16:24:33.527+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:24:33.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:24:33.529+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:24:33.529+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:24:33.545+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:24:33.572+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:24:33.571+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:24:33.590+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:24:33.590+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:24:33.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.082 seconds
+[2024-02-29T16:25:04.476+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:25:04.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:25:04.478+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:25:04.478+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:25:04.493+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:25:04.520+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:25:04.520+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:25:04.537+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:25:04.537+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:25:04.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.076 seconds
+[2024-02-29T16:25:35.381+0000] {processor.py:161} INFO - Started process (PID=399) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:25:35.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:25:35.383+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:25:35.383+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:25:35.401+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:25:35.434+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:25:35.434+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:25:35.454+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:25:35.454+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:25:35.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.099 seconds
+[2024-02-29T16:26:06.327+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:26:06.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:26:06.330+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:26:06.329+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:26:06.345+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:26:06.372+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:26:06.372+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:26:06.392+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:26:06.392+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:26:06.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.098 seconds
+[2024-02-29T16:26:37.093+0000] {processor.py:161} INFO - Started process (PID=425) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:26:37.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:26:37.095+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:26:37.095+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:26:37.113+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:26:37.143+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:26:37.143+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:26:37.162+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:26:37.162+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:26:37.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.086 seconds
+[2024-02-29T16:27:07.915+0000] {processor.py:161} INFO - Started process (PID=439) to work on /opt/airflow/dags/task_instance.py
+[2024-02-29T16:27:07.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_instance.py for tasks to queue
+[2024-02-29T16:27:07.917+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:27:07.917+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:27:07.933+0000] {processor.py:840} INFO - DAG(s) 'task_instance' retrieved from /opt/airflow/dags/task_instance.py
+[2024-02-29T16:27:07.960+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:27:07.960+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-02-29T16:27:07.979+0000] {logging_mixin.py:188} INFO - [2024-02-29T16:27:07.979+0000] {dag.py:3834} INFO - Setting next_dagrun for task_instance to None, run_after=None
+[2024-02-29T16:27:08.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_instance.py took 0.089 seconds
