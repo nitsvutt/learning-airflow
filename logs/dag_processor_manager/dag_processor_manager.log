@@ -21357,3 +21357,78 @@ File Path                                   PID  Runtime      # DAGs    # Errors
 /opt/airflow/dags/params.py                 219  0.00s             1           0  0.07s           2024-02-29T16:10:35
 ================================================================================
 [2024-02-29T16:11:33.126+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-02-29T16:11:40.912+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-02-29T16:11:40.913+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-02-29T16:11:40.914+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-02-29T16:11:40.915+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-02-29T16:11:40.985+0000] {manager.py:741} INFO - There are 7 files in /opt/airflow/dags
+[2024-02-29T16:11:41.214+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/bash_operator.py                                 0           0
+/opt/airflow/dags/context.py                 38  0.05s             0           0
+/opt/airflow/dags/dag_run.py                                       0           0
+/opt/airflow/dags/deferrable_operator.py     39  0.04s             0           0
+/opt/airflow/dags/params.py                                        0           0
+/opt/airflow/dags/python_operator.py                               0           0
+/opt/airflow/dags/task_instance.py                                 0           0
+================================================================================
+[2024-02-29T16:12:12.179+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/context.py                 51  0.01s             1           0  0.35s           2024-02-29T16:11:41
+/opt/airflow/dags/deferrable_operator.py     52  0.00s             1           0  0.30s           2024-02-29T16:11:41
+/opt/airflow/dags/params.py                                        1           0  0.15s           2024-02-29T16:11:41
+/opt/airflow/dags/task_instance.py                                 1           0  0.15s           2024-02-29T16:11:41
+/opt/airflow/dags/dag_run.py                                       1           0  0.15s           2024-02-29T16:11:41
+/opt/airflow/dags/bash_operator.py                                 1           0  0.14s           2024-02-29T16:11:41
+/opt/airflow/dags/python_operator.py                               1           0  0.14s           2024-02-29T16:11:41
+================================================================================
+[2024-02-29T16:12:43.093+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/task_instance.py                                 1           0  0.12s           2024-02-29T16:12:12
+/opt/airflow/dags/context.py                 64  0.01s             1           0  0.11s           2024-02-29T16:12:12
+/opt/airflow/dags/dag_run.py                                       1           0  0.11s           2024-02-29T16:12:12
+/opt/airflow/dags/python_operator.py                               1           0  0.10s           2024-02-29T16:12:12
+/opt/airflow/dags/bash_operator.py                                 1           0  0.10s           2024-02-29T16:12:12
+/opt/airflow/dags/params.py                                        1           0  0.09s           2024-02-29T16:12:12
+/opt/airflow/dags/deferrable_operator.py     65  0.00s             1           0  0.09s           2024-02-29T16:12:12
+================================================================================
+[2024-02-29T16:13:13.975+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/python_operator.py                               1           0  0.12s           2024-02-29T16:12:43
+/opt/airflow/dags/bash_operator.py                                 1           0  0.11s           2024-02-29T16:12:43
+/opt/airflow/dags/task_instance.py                                 1           0  0.11s           2024-02-29T16:12:43
+/opt/airflow/dags/context.py                 77  0.02s             1           0  0.11s           2024-02-29T16:12:43
+/opt/airflow/dags/dag_run.py                                       1           0  0.10s           2024-02-29T16:12:43
+/opt/airflow/dags/params.py                                        1           0  0.09s           2024-02-29T16:12:43
+/opt/airflow/dags/deferrable_operator.py     78  0.00s             1           0  0.09s           2024-02-29T16:12:43
+================================================================================
+[2024-02-29T16:13:44.782+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/context.py                 90  0.01s             1           0  0.19s           2024-02-29T16:13:14
+/opt/airflow/dags/deferrable_operator.py     91  0.00s             1           0  0.11s           2024-02-29T16:13:14
+/opt/airflow/dags/bash_operator.py                                 1           0  0.10s           2024-02-29T16:13:14
+/opt/airflow/dags/task_instance.py                                 1           0  0.10s           2024-02-29T16:13:14
+/opt/airflow/dags/dag_run.py                                       1           0  0.10s           2024-02-29T16:13:14
+/opt/airflow/dags/python_operator.py                               1           0  0.10s           2024-02-29T16:13:14
+/opt/airflow/dags/params.py                                        1           0  0.09s           2024-02-29T16:13:14
+================================================================================
