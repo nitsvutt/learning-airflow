@@ -96,5 +96,3 @@ task_7 >> task_3
 task_8 >> task_7
 task_9 >> task_10
 task_10 >> task_3
-
-# https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/pools.html

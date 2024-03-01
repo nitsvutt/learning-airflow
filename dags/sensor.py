@@ -28,6 +28,3 @@ with DAG(
     )
 
 wait_event
-
-# https://docs.astronomer.io/learn/what-is-a-sensor
-# https://airflow.apache.org/docs/apache-airflow/stable/_modules/airflow/example_dags/example_sensors.html

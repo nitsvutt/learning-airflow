@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 
 def _print_ds(**context):
     print(context['ds'])
-    # https://airflow.apache.org/docs/apache-airflow/stable/templates-ref.html
 
 default_args = {
     'owner': 'vutt',

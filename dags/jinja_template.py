@@ -21,7 +21,6 @@ with DAG(
     echo_ds_nodash = BashOperator(
         task_id='echo_ds',
         bash_command="echo {{ds_nodash}}"
-        # https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/operators.html#concepts-jinja-templating
     )
 
 echo_ds_nodash

@@ -6,7 +6,6 @@ from airflow.models.taskinstance import TaskInstance
 def _print_task_instance(**kwargs):
     ti: TaskInstance = kwargs['task_instance']
     print(ti.execution_date)
-    # https://airflow.apache.org/docs/apache-airflow/2.8.2/_api/airflow/models/taskinstance/index.html
 
 default_args = {
     'owner': 'vutt',

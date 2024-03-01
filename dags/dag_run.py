@@ -6,7 +6,6 @@ from airflow.models.dagrun import DagRun
 def _print_dag_run(**kwargs):
     dr: DagRun = kwargs['dag_run']
     print(dr.queued_at)
-    # https://airflow.apache.org/docs/apache-airflow/2.8.2/_api/airflow/models/dagrun/index.html
 
 default_args = {
     'owner': 'vutt',
