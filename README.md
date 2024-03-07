@@ -27,7 +27,7 @@ Apache Airflow is an open-source platform for developing, scheduling, and monito
 </p>
 
 This is the simplest deployment of Apache Airflow:
-- **Webserver:** The UI of Apache Airflow, which is used to manages user's Directed Acyclic Graphs (DAGs), configurations, and other features of Apache Airflow.
+- **Webserver:** The UI of Apache Airflow, which is used to manage user's Directed Acyclic Graphs (DAGs), configurations, and other features of Apache Airflow.
 - **Scheduler:** The most important part of Apache Airflow scheduling and orchestrating DAGs and tasks, managing their runs and their dependencies.
 - **Executor:** Components that actually execute tasks.
 - **Metadata Database:** The database storing metadata about DAGs, their runs' states and other configurations like users, roles, connections,...
