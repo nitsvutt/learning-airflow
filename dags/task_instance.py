@@ -1,17 +1,15 @@
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
-from airflow.models.taskinstance import TaskInstance
 
-def _print_task_instance(**kwargs):
-    ti: TaskInstance = kwargs['task_instance']
+def _print_task_instance(**context):
+    ti = context['ti']
     print(ti.execution_date)
 
 default_args = {
     'owner': 'vutt',
     'depends_on_past': True,
     'start_date': datetime(2024, 1, 1),
-    'end_date': datetime(2024, 1, 7),
     'retries': 2,
     'retry_delay': timedelta(hours=1)
 }
