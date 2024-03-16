@@ -1,13 +1,14 @@
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
+from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 
 def _xcom_push(**context):
-    ti = context['task_instance']
+    ti = context['ti']
     ti.xcom_push(key='name', value='vutt')
 
 def _xcom_pull(**context):
-    ti = context['task_instance']
+    ti = context['ti']
     print(ti.xcom_pull(task_ids='xcom_push', key='name'))
 
 default_args = {
@@ -35,4 +36,9 @@ with DAG(
         python_callable=_xcom_pull
     )
 
-xcom_push >> xcom_pull
+    xcom_bash_pull = BashOperator (
+        task_id='xcom_bash_pull',
+        bash_command="echo {{ti.xcom_pull(task_ids='xcom_push', key='name')}}"
+    )
+
+xcom_push >> xcom_pull >> xcom_bash_pull
