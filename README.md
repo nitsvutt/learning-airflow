@@ -20,7 +20,7 @@ Apache Airflow is an open-source platform for developing, scheduling, and monito
 
 <div id="architecture"/>
 
-## 1. Apache Airflow architecture
+## 2. Apache Airflow architecture
 
 <p align="center">
     <img src="https://github.com/nitsvutt/learning-airflow/blob/main/images/architecture.png" title="Apache Airflow architecture" alt="apache airflow architecture" width=600/>
@@ -31,3 +31,8 @@ This is the simplest deployment of Apache Airflow:
 - **Scheduler:** The most important part of Apache Airflow scheduling and orchestrating DAGs and tasks, managing their runs and their dependencies.
 - **Executor:** Components that actually execute tasks.
 - **Metadata Database:** The database storing metadata about DAGs, their runs' states and other configurations like users, roles, connections,...
+
+<div id="work"/>
+
+## 3. How does Apache Airflow work
+
