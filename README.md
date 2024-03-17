@@ -40,3 +40,77 @@ This is the simplest deployment of Apache Airflow:
 - After that, the **Scheduler** reads those files, submits the defined tasks to the executor to run and writes DAG's information to the **Metadata DB**.
 - Now, users can view their DAG through the **Webserver** reading DAG's information from the **Metadata DB** to illustrate, trigger those start or stop and interact with other configurations.
 
+<div id="set-up"/>
+
+## 3. Set up Apache Airflow
+
+### 3.1. Quick start with Docker
+
+For testing purpose only, you can use the provided Docker image and Docker compose file of Apache Airflow at [here](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html) or quick start with:
+- Dowload the Docker compose file:
+```
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.3/docker-compose.yaml'
+```
+- Create necessary folders and .env file:
+```
+mkdir -p ./dags ./logs ./plugins ./config
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+```
+- Init database:
+```
+docker compose up airflow-init
+```
+- Start Apache Airflow:
+```
+docker compose up
+```
+
+### 3.2. Standalone installation:
+
+For production, with medium workload, standalone installation within PostgreSQL is a good choice.
+- First, you have to install a Postgresql Database:
+    - Update and install necessary packages:
+    ```
+    sudo apt update
+    sudo apt install wget
+    ```
+    - Add the PostgreSQL repository:
+    ```
+    sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+    ```
+    - Import the repository signing key:
+    ```
+    wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+    ```
+    - Update the package lists:
+    ```
+    sudo apt update
+    ```
+    - Install postgresl-16:
+    ```
+    sudo apt install postgresql-16
+    ```
+    - Start PostgreSQL service:
+    ```
+    sudo systemctl start postgresql
+    ```
+    - Enable PostgreSQL service:
+    ```
+    sudo systemctl enable postgresql
+    ```
+    - Allow PostgreSQL port through the firewall:
+    ```
+    sudo ufw allow 5432/tcp
+    ```
+    - Connect with username=postgres and set password:
+    ```
+    sudo -u postgres psql
+    ```
+    ```
+    ALTER USER postgres PASSWORD 'postgres';
+    ```
+    - Connect again with:
+    ```
+    psql -h localhost -U postgres -W
+    ```
+- Now, you can set up Apache Airflow with PostgreSQL metadata database:
