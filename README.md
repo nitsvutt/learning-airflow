@@ -36,3 +36,7 @@ This is the simplest deployment of Apache Airflow:
 
 ## 3. How does Apache Airflow work
 
+- First, users define python files that describes the arguments, the tasks and the dependencies of the DAG and locate in the DAG folder.
+- After that, the **Scheduler** reads those files, submits the defined tasks to the executor to run and writes DAG's information to the **Metadata DB**.
+- Now, users can view their DAG through the **Webserver** reading DAG's information from the **Metadata DB** to illustrate, trigger those start or stop and interact with other configurations.
+
