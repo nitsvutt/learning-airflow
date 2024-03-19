@@ -113,4 +113,53 @@ For production, with medium workload, standalone installation within PostgreSQL 
     ```
     psql -h localhost -U postgres -W
     ```
+    - Create airflow user and airflow database:
+    ```
+    CREATE USER airflow PASSWORD 'airflow';
+    CREATE DATABASE airflow OWNER airlfow;
+    ```
 - Now, you can set up Apache Airflow with PostgreSQL metadata database:
+    - Install python3:
+    ```
+    sudo apt install python3 python3-pip -y
+    ```
+    - Update pip:
+    ```
+    pip3 install --upgrade pip
+    ```
+    - Install necessary packages:
+    ```
+    pip install SQLAlchemy psycopg2-binary apache-airflow
+    ```
+    - Create and add airflow home folder:
+    ```
+    sudo mkdir airflow
+    ```
+    - Add AIRFLOW_HOME to ~/.bashrc:
+    ```
+    export AIRFLOW_HOME=/home/vutt/airflow
+    ```
+    - Init database:
+    ```
+    airflow db init
+    ```
+    - Update AIRFLOW__DATABASE__SQL_ALCHEMY_CONN to postgresql connection:
+    ```
+    sql_alchemy_conn = postgresql+psycopg2://airflow:airflow@localhost:5432/airflow
+    ```
+    - Migrate database:
+    ```
+    airflow db migrate
+    ```
+    - Create airflow user:
+    ```
+    airflow users create --username root --password admin --firstname root --lastname root --role Admin --email root@admin.com
+    ```
+    - Start **Scheduler**:
+    ```
+    airflow scheduler
+    ```
+    - Start **Webserver**:
+    ```
+    airflow webserver --port 8999
+    ```
