@@ -168,6 +168,16 @@ For production, with medium workload, standalone installation within PostgreSQL 
 
 ## 5. Cheat sheet:
 
-### 5.1. [PythonOperator](https://github.com/nitsvutt/learning-airflow/blob/main/dags/python_operator.py)
-
-### 5.2. 
+- [PythonOperator](https://github.com/nitsvutt/learning-airflow/blob/main/dags/python_operator.py)
+- [BashOperator](https://github.com/nitsvutt/learning-airflow/blob/main/dags/bash_operator.py)
+- [BranchPythonOperator](https://github.com/nitsvutt/learning-airflow/blob/main/dags/branch_python_operator.py)
+- [Context](https://github.com/nitsvutt/learning-airflow/blob/main/dags/context.py)
+- [Dag Run](https://github.com/nitsvutt/learning-airflow/blob/main/dags/dag_run.py)
+- [Task Instance](https://github.com/nitsvutt/learning-airflow/blob/main/dags/task_instance.py)
+- [Jinja Template](https://github.com/nitsvutt/learning-airflow/blob/main/dags/jinja_template.py)
+- [Params](https://github.com/nitsvutt/learning-airflow/blob/main/dags/params.py)
+- [Xcom](https://github.com/nitsvutt/learning-airflow/blob/main/dags/xcom.py)
+- [Sensor](https://github.com/nitsvutt/learning-airflow/blob/main/dags/sensor.py)
+- [Deferrable Operator](https://github.com/nitsvutt/learning-airflow/blob/main/dags/deferrable_operator.py)
+- [TriggerDagRunOperator](https://github.com/nitsvutt/learning-airflow/blob/main/dags/trigger_dag_run_dag2.py)
+- [Pool](https://github.com/nitsvutt/learning-airflow/blob/main/dags/pool.py)
