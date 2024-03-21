@@ -42,9 +42,9 @@ This is the simplest deployment of Apache Airflow:
 
 <div id="set-up"/>
 
-## 3. Set up Apache Airflow
+## 4. Set up Apache Airflow
 
-### 3.1. Quick start with Docker
+### 4.1. Quick start with Docker
 
 For testing purpose only, you can use the provided Docker image and Docker compose file of Apache Airflow at [here](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html) or quick start with:
 - Dowload the Docker compose file:
@@ -65,7 +65,7 @@ docker compose up airflow-init
 docker compose up
 ```
 
-### 3.2. Standalone installation:
+### 4.2. Standalone installation:
 
 For production, with medium workload, standalone installation within PostgreSQL is a good choice.
 - First, you have to install a Postgresql Database:
@@ -163,3 +163,11 @@ For production, with medium workload, standalone installation within PostgreSQL 
     ```
     airflow webserver --port 8999
     ```
+
+<div id="cheat-sheet"/>
+
+## 5. Cheat sheet:
+
+### 5.1. [PythonOperator](https://github.com/nitsvutt/learning-airflow/blob/main/dags/python_operator.py)
+
+### 5.2. 
