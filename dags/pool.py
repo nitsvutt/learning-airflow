@@ -88,11 +88,7 @@ with DAG(
         pool="poor_performance",
     )
 
-task_1 >> task_2 >> task_3
-task_4 >> task_2
+[task_1, task_4, task_6] >> task_2 >> task_3
 task_5 >> task_3
-task_6 >> task_2
-task_7 >> task_3
-task_8 >> task_7
-task_9 >> task_10
-task_10 >> task_3
+task_8 >> task_7 >> task_3
+task_9 >> task_10 >> task_3
