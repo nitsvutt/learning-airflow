@@ -14,7 +14,7 @@ default_args = {
 with DAG(
     'trigger_dag_run_dag1',
     default_args=default_args,
-    schedule_interval='@daily',
+    schedule_interval=None,
     catchup=True
 ) as dag:
     
