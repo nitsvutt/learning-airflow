@@ -182,3 +182,4 @@ For production, with medium workload, standalone installation within PostgreSQL 
 - [TriggerDagRunOperator](https://github.com/nitsvutt/learning-airflow/blob/main/dags/trigger_dag_run_dag2.py)
 - [Pool](https://github.com/nitsvutt/learning-airflow/blob/main/dags/pool.py)
 - [Callback](https://github.com/nitsvutt/learning-airflow/blob/main/dags/callback.py)
+- [Task Group](https://github.com/nitsvutt/learning-airflow/blob/main/dags/task_group.py)
