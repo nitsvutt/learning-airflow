@@ -183,3 +183,4 @@ For production, with medium workload, standalone installation within PostgreSQL 
 - [Pool](https://github.com/nitsvutt/learning-airflow/blob/main/dags/pool.py)
 - [Callback](https://github.com/nitsvutt/learning-airflow/blob/main/dags/callback.py)
 - [Task Group](https://github.com/nitsvutt/learning-airflow/blob/main/dags/task_group.py)
+- [Dynamic DAG Generator](https://github.com/nitsvutt/learning-airflow/blob/main/dags/dynamic_dag_generator_type_1.py)

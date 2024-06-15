@@ -306,3 +306,17 @@
 [2024-06-15T02:51:40.842+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:51:40.842+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-06-15T02:51:40.857+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:51:40.857+0000] {dag.py:3834} INFO - Setting next_dagrun for sensor to None, run_after=None
 [2024-06-15T02:51:40.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sensor.py took 0.062 seconds
+[2024-06-15T02:52:11.483+0000] {processor.py:161} INFO - Started process (PID=1099) to work on /opt/airflow/dags/sensor.py
+[2024-06-15T02:52:11.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sensor.py for tasks to queue
+[2024-06-15T02:52:11.485+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:52:11.485+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sensor.py
+[2024-06-15T02:52:11.499+0000] {processor.py:840} INFO - DAG(s) 'sensor' retrieved from /opt/airflow/dags/sensor.py
+[2024-06-15T02:52:11.523+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:52:11.523+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:52:11.542+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:52:11.542+0000] {dag.py:3834} INFO - Setting next_dagrun for sensor to None, run_after=None
+[2024-06-15T02:52:11.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sensor.py took 0.075 seconds
+[2024-06-15T02:52:41.955+0000] {processor.py:161} INFO - Started process (PID=1122) to work on /opt/airflow/dags/sensor.py
+[2024-06-15T02:52:41.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sensor.py for tasks to queue
+[2024-06-15T02:52:41.956+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:52:41.956+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sensor.py
+[2024-06-15T02:52:41.966+0000] {processor.py:840} INFO - DAG(s) 'sensor' retrieved from /opt/airflow/dags/sensor.py
+[2024-06-15T02:52:41.986+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:52:41.986+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:52:42.002+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:52:42.001+0000] {dag.py:3834} INFO - Setting next_dagrun for sensor to None, run_after=None
+[2024-06-15T02:52:42.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sensor.py took 0.061 seconds
