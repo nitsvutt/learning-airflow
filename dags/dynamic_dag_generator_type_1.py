@@ -37,5 +37,4 @@ for path in glob("/opt/airflow/config/type_1/*.yaml"):
             task_id='spark_submit',
             bash_command=f'echo spark_submit for {CONFIG["dag_id"]}'
         )
-
-    check_condictions >> spark_submit
+        check_condictions >> spark_submit
