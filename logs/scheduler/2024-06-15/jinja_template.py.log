@@ -348,3 +348,31 @@
 [2024-06-15T02:54:44.119+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:54:44.119+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-06-15T02:54:44.140+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:54:44.139+0000] {dag.py:3834} INFO - Setting next_dagrun for jinja_template to None, run_after=None
 [2024-06-15T02:54:44.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/jinja_template.py took 0.094 seconds
+[2024-06-15T02:55:15.142+0000] {processor.py:161} INFO - Started process (PID=1236) to work on /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:55:15.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/jinja_template.py for tasks to queue
+[2024-06-15T02:55:15.143+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:55:15.143+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:55:15.153+0000] {processor.py:840} INFO - DAG(s) 'jinja_template' retrieved from /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:55:15.172+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:55:15.171+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:55:15.188+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:55:15.188+0000] {dag.py:3834} INFO - Setting next_dagrun for jinja_template to None, run_after=None
+[2024-06-15T02:55:15.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/jinja_template.py took 0.066 seconds
+[2024-06-15T02:55:45.748+0000] {processor.py:161} INFO - Started process (PID=1259) to work on /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:55:45.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/jinja_template.py for tasks to queue
+[2024-06-15T02:55:45.750+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:55:45.750+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:55:45.764+0000] {processor.py:840} INFO - DAG(s) 'jinja_template' retrieved from /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:55:45.812+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:55:45.812+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:55:45.830+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:55:45.829+0000] {dag.py:3834} INFO - Setting next_dagrun for jinja_template to None, run_after=None
+[2024-06-15T02:55:45.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/jinja_template.py took 0.108 seconds
+[2024-06-15T02:56:16.374+0000] {processor.py:161} INFO - Started process (PID=1282) to work on /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:56:16.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/jinja_template.py for tasks to queue
+[2024-06-15T02:56:16.377+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:56:16.376+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:56:16.386+0000] {processor.py:840} INFO - DAG(s) 'jinja_template' retrieved from /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:56:16.427+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:56:16.427+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:56:16.441+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:56:16.441+0000] {dag.py:3834} INFO - Setting next_dagrun for jinja_template to None, run_after=None
+[2024-06-15T02:56:16.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/jinja_template.py took 0.088 seconds
+[2024-06-15T02:56:46.543+0000] {processor.py:161} INFO - Started process (PID=1306) to work on /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:56:46.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/jinja_template.py for tasks to queue
+[2024-06-15T02:56:46.545+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:56:46.545+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:56:46.561+0000] {processor.py:840} INFO - DAG(s) 'jinja_template' retrieved from /opt/airflow/dags/jinja_template.py
+[2024-06-15T02:56:46.585+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:56:46.585+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:56:46.603+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:56:46.603+0000] {dag.py:3834} INFO - Setting next_dagrun for jinja_template to None, run_after=None
+[2024-06-15T02:56:46.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/jinja_template.py took 0.085 seconds

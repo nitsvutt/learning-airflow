@@ -23,22 +23,19 @@ for path in glob("/opt/airflow/config/type_1/*.yaml"):
         'depends_on_past': False,
         'start_date': datetime(CONFIG["start_date"][0], CONFIG["start_date"][1], CONFIG["start_date"][2], tzinfo=TIMEZONE)
     }
-
     with DAG(
         dag_id=CONFIG["dag_id"],
         default_args=default_args,
         schedule=CONFIG["schedule"]
     ) as dag:
-        
         check_condictions = PythonOperator(
             task_id='check_condictions',
             python_callable=_check_some_condictions,
             op_kwargs={'dag_id': CONFIG["dag_id"]}
         )
-
         spark_submit = BashOperator(
             task_id='spark_submit',
             bash_command=f'echo spark_submit for {CONFIG["dag_id"]}'
         )
 
-        check_condictions >> spark_submit
+    check_condictions >> spark_submit
