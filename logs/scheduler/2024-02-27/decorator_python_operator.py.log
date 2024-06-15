@@ -1,0 +1,10 @@
+[2024-02-27T16:02:22.119+0000] {processor.py:161} INFO - Started process (PID=591) to work on /opt/airflow/dags/decorator_python_operator.py
+[2024-02-27T16:02:22.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/decorator_python_operator.py for tasks to queue
+[2024-02-27T16:02:22.120+0000] {logging_mixin.py:188} INFO - [2024-02-27T16:02:22.120+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/decorator_python_operator.py
+[2024-02-27T16:02:22.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/decorator_python_operator.py
+[2024-02-27T16:02:22.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/decorator_python_operator.py took 0.036 seconds
+[2024-02-27T16:02:52.452+0000] {processor.py:161} INFO - Started process (PID=599) to work on /opt/airflow/dags/decorator_python_operator.py
+[2024-02-27T16:02:52.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/decorator_python_operator.py for tasks to queue
+[2024-02-27T16:02:52.454+0000] {logging_mixin.py:188} INFO - [2024-02-27T16:02:52.453+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/decorator_python_operator.py
+[2024-02-27T16:02:52.461+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/decorator_python_operator.py
+[2024-02-27T16:02:52.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/decorator_python_operator.py took 0.028 seconds

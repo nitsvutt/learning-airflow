@@ -1,0 +1,26 @@
+[2024-02-29T16:12:05.216+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=context/run_id=scheduled__2024-01-20T00:00:00+00:00/task_id=print_ds permission to 509
+[2024-02-29T16:12:05.218+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=context/run_id=scheduled__2024-01-20T00:00:00+00:00 permission to 509
+[2024-02-29T16:12:05.220+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=context permission to 509
+[2024-02-29T16:12:05.223+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs permission to 509
+[2024-02-29T16:12:05.291+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=context/run_id=scheduled__2024-01-20T00:00:00+00:00/task_id=print_ds permission to 509
+[2024-02-29T16:12:05.293+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=context/run_id=scheduled__2024-01-20T00:00:00+00:00 permission to 509
+[2024-02-29T16:12:05.295+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=context permission to 509
+[2024-02-29T16:12:05.298+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs permission to 509
+[2024-02-29T16:12:05.352+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: context.print_ds scheduled__2024-01-20T00:00:00+00:00 [queued]>
+[2024-02-29T16:12:05.362+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: context.print_ds scheduled__2024-01-20T00:00:00+00:00 [queued]>
+[2024-02-29T16:12:05.362+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2024-02-29T16:12:05.378+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): print_ds> on 2024-01-20 00:00:00+00:00
+[2024-02-29T16:12:05.385+0000] {standard_task_runner.py:60} INFO - Started process 103 to run task
+[2024-02-29T16:12:05.387+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'context', 'print_ds', 'scheduled__2024-01-20T00:00:00+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/context.py', '--cfg-path', '/tmp/tmpv3auk0x7']
+[2024-02-29T16:12:05.389+0000] {standard_task_runner.py:88} INFO - Job 101: Subtask print_ds
+[2024-02-29T16:12:05.494+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=context/run_id=scheduled__2024-01-20T00:00:00+00:00/task_id=print_ds permission to 509
+[2024-02-29T16:12:05.495+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=context/run_id=scheduled__2024-01-20T00:00:00+00:00 permission to 509
+[2024-02-29T16:12:05.497+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=context permission to 509
+[2024-02-29T16:12:05.499+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs permission to 509
+[2024-02-29T16:12:05.501+0000] {task_command.py:423} INFO - Running <TaskInstance: context.print_ds scheduled__2024-01-20T00:00:00+00:00 [running]> on host 68829ac68ce6
+[2024-02-29T16:12:05.640+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vutt' AIRFLOW_CTX_DAG_ID='context' AIRFLOW_CTX_TASK_ID='print_ds' AIRFLOW_CTX_EXECUTION_DATE='2024-01-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-20T00:00:00+00:00'
+[2024-02-29T16:12:05.641+0000] {logging_mixin.py:188} INFO - 2024-01-20
+[2024-02-29T16:12:05.641+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-02-29T16:12:05.659+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=context, task_id=print_ds, execution_date=20240120T000000, start_date=20240229T161205, end_date=20240229T161205
+[2024-02-29T16:12:05.680+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-29T16:12:05.706+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

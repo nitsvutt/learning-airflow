@@ -1,0 +1,308 @@
+[2024-06-15T02:29:47.105+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:29:47.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:29:47.107+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:29:47.107+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:29:47.119+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:29:47.195+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:29:47.195+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:29:47.205+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:29:47.205+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:29:47.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.122 seconds
+[2024-06-15T02:30:17.912+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:30:17.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:30:17.914+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:30:17.914+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:30:17.924+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:30:17.945+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:30:17.945+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:30:17.960+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:30:17.960+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:30:17.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.063 seconds
+[2024-06-15T02:30:48.507+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:30:48.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:30:48.509+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:30:48.509+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:30:48.518+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:30:48.537+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:30:48.537+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:30:48.545+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:30:48.545+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:30:48.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.052 seconds
+[2024-06-15T02:31:18.951+0000] {processor.py:161} INFO - Started process (PID=116) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:31:18.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:31:18.952+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:31:18.952+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:31:18.964+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:31:18.985+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:31:18.985+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:31:18.993+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:31:18.993+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:31:19.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.058 seconds
+[2024-06-15T02:31:49.532+0000] {processor.py:161} INFO - Started process (PID=138) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:31:49.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:31:49.534+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:31:49.534+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:31:49.545+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:31:49.566+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:31:49.565+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:31:49.573+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:31:49.573+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:31:49.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.055 seconds
+[2024-06-15T02:32:19.992+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:32:19.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:32:19.993+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:32:19.993+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:32:20.005+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:32:20.028+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:32:20.028+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:32:20.038+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:32:20.037+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:32:20.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.064 seconds
+[2024-06-15T02:32:50.489+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:32:50.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:32:50.490+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:32:50.490+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:32:50.515+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:32:50.575+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:32:50.575+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:32:50.584+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:32:50.584+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:32:50.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.151 seconds
+[2024-06-15T02:33:21.323+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:33:21.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:33:21.325+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:33:21.325+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:33:21.338+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:33:21.363+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:33:21.362+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:33:21.374+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:33:21.374+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:33:21.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.069 seconds
+[2024-06-15T02:33:51.915+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:33:51.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:33:51.916+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:33:51.916+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:33:51.929+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:33:51.952+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:33:51.952+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:33:51.962+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:33:51.962+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:33:51.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.065 seconds
+[2024-06-15T02:34:22.414+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:34:22.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:34:22.415+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:34:22.415+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:34:22.427+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:34:22.459+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:34:22.459+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:34:22.468+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:34:22.468+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:34:22.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.072 seconds
+[2024-06-15T02:34:53.193+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:34:53.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:34:53.195+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:34:53.195+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:34:53.206+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:34:53.226+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:34:53.226+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:34:53.236+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:34:53.236+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:34:53.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.061 seconds
+[2024-06-15T02:35:23.859+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:35:23.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:35:23.861+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:35:23.861+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:35:23.873+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:35:23.897+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:35:23.897+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:35:23.907+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:35:23.907+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:35:23.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.068 seconds
+[2024-06-15T02:35:54.507+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:35:54.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:35:54.509+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:35:54.508+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:35:54.520+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:35:54.542+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:35:54.541+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:35:54.549+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:35:54.549+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:35:54.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.060 seconds
+[2024-06-15T02:36:24.911+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:36:24.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:36:24.913+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:36:24.913+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:36:24.929+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:36:24.952+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:36:24.952+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:36:24.963+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:36:24.963+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:36:24.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.068 seconds
+[2024-06-15T02:36:55.415+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:36:55.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:36:55.417+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:36:55.417+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:36:55.427+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:36:55.445+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:36:55.445+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:36:55.454+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:36:55.454+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:36:55.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.054 seconds
+[2024-06-15T02:37:26.115+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:37:26.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:37:26.117+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:37:26.117+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:37:26.129+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:37:26.149+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:37:26.149+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:37:26.157+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:37:26.157+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:37:26.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.069 seconds
+[2024-06-15T02:37:56.656+0000] {processor.py:161} INFO - Started process (PID=410) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:37:56.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:37:56.658+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:37:56.658+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:37:56.670+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:37:56.689+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:37:56.689+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:37:56.697+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:37:56.697+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:37:56.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.063 seconds
+[2024-06-15T02:38:27.564+0000] {processor.py:161} INFO - Started process (PID=434) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:38:27.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:38:27.565+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:38:27.565+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:38:27.575+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:38:27.596+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:38:27.596+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:38:27.604+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:38:27.604+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:38:27.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.054 seconds
+[2024-06-15T02:38:58.196+0000] {processor.py:161} INFO - Started process (PID=457) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:38:58.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:38:58.197+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:38:58.197+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:38:58.210+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:38:58.232+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:38:58.232+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:38:58.241+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:38:58.241+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:38:58.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.061 seconds
+[2024-06-15T02:39:28.636+0000] {processor.py:161} INFO - Started process (PID=480) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:39:28.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:39:28.638+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:39:28.638+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:39:28.649+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:39:28.671+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:39:28.671+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:39:28.680+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:39:28.679+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:39:28.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.062 seconds
+[2024-06-15T02:39:59.028+0000] {processor.py:161} INFO - Started process (PID=503) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:39:59.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:39:59.030+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:39:59.030+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:39:59.044+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:39:59.067+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:39:59.067+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:39:59.077+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:39:59.076+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:39:59.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.065 seconds
+[2024-06-15T02:40:29.358+0000] {processor.py:161} INFO - Started process (PID=526) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:40:29.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:40:29.361+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:40:29.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:40:29.372+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:40:29.391+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:40:29.391+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:40:29.399+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:40:29.399+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:40:29.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.056 seconds
+[2024-06-15T02:40:59.971+0000] {processor.py:161} INFO - Started process (PID=549) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:40:59.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:40:59.972+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:40:59.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:40:59.981+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:41:00.003+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:41:00.003+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:41:00.021+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:41:00.021+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:41:00.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.068 seconds
+[2024-06-15T02:41:30.436+0000] {processor.py:161} INFO - Started process (PID=572) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:41:30.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:41:30.438+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:41:30.438+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:41:30.448+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:41:30.472+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:41:30.472+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:41:30.480+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:41:30.480+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:41:30.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.059 seconds
+[2024-06-15T02:42:01.040+0000] {processor.py:161} INFO - Started process (PID=595) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:42:01.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:42:01.042+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:42:01.042+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:42:01.055+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:42:01.079+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:42:01.079+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:42:01.088+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:42:01.088+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:42:01.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.066 seconds
+[2024-06-15T02:42:31.560+0000] {processor.py:161} INFO - Started process (PID=618) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:42:31.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:42:31.562+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:42:31.562+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:42:31.576+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:42:31.598+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:42:31.598+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:42:31.607+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:42:31.607+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:42:31.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.063 seconds
+[2024-06-15T02:43:02.179+0000] {processor.py:161} INFO - Started process (PID=642) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:43:02.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:43:02.182+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:43:02.182+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:43:02.192+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:43:02.212+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:43:02.212+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:43:02.219+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:43:02.219+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:43:02.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.060 seconds
+[2024-06-15T02:43:32.703+0000] {processor.py:161} INFO - Started process (PID=665) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:43:32.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:43:32.705+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:43:32.705+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:43:32.723+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:43:32.746+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:43:32.745+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:43:32.754+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:43:32.754+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:43:32.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.067 seconds
+[2024-06-15T02:44:03.102+0000] {processor.py:161} INFO - Started process (PID=688) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:44:03.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:44:03.105+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:44:03.105+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:44:03.115+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:44:03.143+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:44:03.142+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:44:03.154+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:44:03.153+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:44:03.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.076 seconds
+[2024-06-15T02:44:33.775+0000] {processor.py:161} INFO - Started process (PID=711) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:44:33.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:44:33.777+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:44:33.777+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:44:33.789+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:44:33.811+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:44:33.811+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:44:33.821+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:44:33.821+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:44:33.845+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.072 seconds
+[2024-06-15T02:45:04.471+0000] {processor.py:161} INFO - Started process (PID=735) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:45:04.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:45:04.473+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:45:04.472+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:45:04.485+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:45:04.511+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:45:04.511+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:45:04.524+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:45:04.524+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:45:04.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.074 seconds
+[2024-06-15T02:45:35.026+0000] {processor.py:161} INFO - Started process (PID=758) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:45:35.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:45:35.028+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:45:35.028+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:45:35.041+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:45:35.063+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:45:35.063+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:45:35.072+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:45:35.072+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:45:35.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.061 seconds
+[2024-06-15T02:46:05.673+0000] {processor.py:161} INFO - Started process (PID=782) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:46:05.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:46:05.675+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:46:05.675+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:46:05.687+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:46:05.710+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:46:05.710+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:46:05.720+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:46:05.719+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:46:05.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.064 seconds
+[2024-06-15T02:46:35.995+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:46:35.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:46:35.997+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:46:35.997+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:46:36.013+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:46:36.035+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:46:36.035+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:46:36.044+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:46:36.043+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:46:36.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.065 seconds
+[2024-06-15T02:47:06.360+0000] {processor.py:161} INFO - Started process (PID=830) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:47:06.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:47:06.362+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:47:06.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:47:06.374+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:47:06.397+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:47:06.397+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:47:06.408+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:47:06.408+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:47:06.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.068 seconds
+[2024-06-15T02:47:36.847+0000] {processor.py:161} INFO - Started process (PID=854) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:47:36.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:47:36.849+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:47:36.849+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:47:36.861+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:47:36.887+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:47:36.887+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:47:36.898+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:47:36.898+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:47:36.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.070 seconds
+[2024-06-15T02:48:07.360+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:48:07.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:48:07.361+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:48:07.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:48:07.373+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:48:07.392+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:48:07.392+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:48:07.400+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:48:07.400+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:48:07.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.065 seconds
+[2024-06-15T02:48:37.893+0000] {processor.py:161} INFO - Started process (PID=901) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:48:37.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:48:37.896+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:48:37.895+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:48:37.908+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:48:37.933+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:48:37.933+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:48:37.942+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:48:37.942+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:48:37.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.067 seconds
+[2024-06-15T02:49:08.421+0000] {processor.py:161} INFO - Started process (PID=924) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:49:08.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:49:08.423+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:49:08.423+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:49:08.436+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:49:08.457+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:49:08.457+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:49:08.467+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:49:08.466+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:49:08.481+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.062 seconds
+[2024-06-15T02:49:38.920+0000] {processor.py:161} INFO - Started process (PID=975) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:49:38.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:49:38.922+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:49:38.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:49:38.937+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:49:38.964+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:49:38.964+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:49:38.974+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:49:38.974+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:49:38.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.077 seconds
+[2024-06-15T02:50:09.355+0000] {processor.py:161} INFO - Started process (PID=1003) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:50:09.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:50:09.357+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:50:09.356+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:50:09.366+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:50:09.394+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:50:09.393+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:50:09.401+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:50:09.401+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:50:09.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.066 seconds
+[2024-06-15T02:50:39.854+0000] {processor.py:161} INFO - Started process (PID=1026) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:50:39.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:50:39.856+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:50:39.856+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:50:39.866+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:50:39.886+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:50:39.886+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:50:39.895+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:50:39.895+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:50:39.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.060 seconds
+[2024-06-15T02:51:10.445+0000] {processor.py:161} INFO - Started process (PID=1049) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:51:10.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:51:10.447+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:51:10.447+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:51:10.463+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:51:10.490+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:51:10.489+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:51:10.498+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:51:10.498+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:51:10.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.073 seconds
+[2024-06-15T02:51:40.888+0000] {processor.py:161} INFO - Started process (PID=1078) to work on /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:51:40.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/deferrable_operator.py for tasks to queue
+[2024-06-15T02:51:40.889+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:51:40.889+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:51:40.902+0000] {processor.py:840} INFO - DAG(s) 'deferrable_operator' retrieved from /opt/airflow/dags/deferrable_operator.py
+[2024-06-15T02:51:40.923+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:51:40.923+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-06-15T02:51:40.931+0000] {logging_mixin.py:188} INFO - [2024-06-15T02:51:40.931+0000] {dag.py:3834} INFO - Setting next_dagrun for deferrable_operator to None, run_after=None
+[2024-06-15T02:51:40.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/deferrable_operator.py took 0.058 seconds

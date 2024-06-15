@@ -1,0 +1,319 @@
+[2024-04-04T16:18:56.931+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:18:56.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:18:56.933+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:18:56.933+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:18:56.959+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:18:57.224+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:18:57.224+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:callback
+[2024-04-04T16:18:57.231+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:18:57.231+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:callback
+[2024-04-04T16:18:57.237+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:18:57.237+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:callback
+[2024-04-04T16:18:57.237+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:18:57.237+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:18:57.245+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:18:57.245+0000] {dag.py:3069} INFO - Creating ORM DAG for callback
+[2024-04-04T16:18:57.245+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:18:57.245+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:18:57.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.341 seconds
+[2024-04-04T16:19:27.932+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:19:27.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:19:27.935+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:19:27.935+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:19:27.950+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:19:27.981+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:19:27.981+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:19:27.991+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:19:27.991+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:19:28.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.086 seconds
+[2024-04-04T16:19:39.956+0000] {processor.py:161} INFO - Started process (PID=77) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:19:39.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:19:39.958+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:19:39.957+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:19:39.978+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:19:40.062+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:19:40.062+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:19:40.071+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:19:40.071+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:19:40.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.136 seconds
+[2024-04-04T16:20:09.211+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:20:09.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:20:09.213+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:20:09.213+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:20:09.232+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:20:09.226+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/callback.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/callback.py", line 23, in <module>
+    'start_date': pendulum.datetime(2024, 1, 1, hcm_tz)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+           ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/datetime.py", line 105, in create
+    dt = datetime.datetime(
+         ^^^^^^^^^^^^^^^^^^
+TypeError: 'Asia/Ho_Chi_Minh' object cannot be interpreted as an integer
+[2024-04-04T16:20:09.232+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:20:09.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.074 seconds
+[2024-04-04T16:20:12.278+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:20:12.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:20:12.280+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:20:12.280+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:20:12.301+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:20:12.293+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/callback.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/callback.py", line 23, in <module>
+    'start_date': pendulum.datetime(2024, 1, 1, hcm_tz)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+           ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/datetime.py", line 105, in create
+    dt = datetime.datetime(
+         ^^^^^^^^^^^^^^^^^^
+TypeError: 'Asia/Ho_Chi_Minh' object cannot be interpreted as an integer
+[2024-04-04T16:20:12.304+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:20:12.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.053 seconds
+[2024-04-04T16:20:16.388+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:20:16.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:20:16.390+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:20:16.390+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:20:16.412+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:20:16.409+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/callback.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/callback.py", line 23, in <module>
+    'start_date': pendulum.datetime(2024, 1, 1, hcm_tz)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+           ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/datetime.py", line 105, in create
+    dt = datetime.datetime(
+         ^^^^^^^^^^^^^^^^^^
+TypeError: 'Asia/Ho_Chi_Minh' object cannot be interpreted as an integer
+[2024-04-04T16:20:16.412+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:20:16.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.055 seconds
+[2024-04-04T16:20:37.705+0000] {processor.py:161} INFO - Started process (PID=121) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:20:37.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:20:37.708+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:20:37.708+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:20:37.739+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:20:37.736+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/callback.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/callback.py", line 23, in <module>
+    'start_date': pendulum.datetime(2024, 1, 1, hcm_tz)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+           ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/datetime.py", line 105, in create
+    dt = datetime.datetime(
+         ^^^^^^^^^^^^^^^^^^
+TypeError: 'Asia/Ho_Chi_Minh' object cannot be interpreted as an integer
+[2024-04-04T16:20:37.740+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:20:37.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.079 seconds
+[2024-04-04T16:20:38.733+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:20:38.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:20:38.743+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:20:38.743+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:20:38.763+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:20:38.759+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/callback.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/callback.py", line 23, in <module>
+    'start_date': pendulum.datetime(2024, 1, 1, hcm_tz)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+           ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/datetime.py", line 105, in create
+    dt = datetime.datetime(
+         ^^^^^^^^^^^^^^^^^^
+TypeError: 'Asia/Ho_Chi_Minh' object cannot be interpreted as an integer
+[2024-04-04T16:20:38.763+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:20:38.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.062 seconds
+[2024-04-04T16:21:09.149+0000] {processor.py:161} INFO - Started process (PID=143) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:21:09.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:21:09.150+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:21:09.150+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:21:09.165+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:21:09.162+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/callback.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/callback.py", line 23, in <module>
+    'start_date': pendulum.datetime(2024, 1, 1, hcm_tz)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+           ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/datetime.py", line 105, in create
+    dt = datetime.datetime(
+         ^^^^^^^^^^^^^^^^^^
+TypeError: 'Asia/Ho_Chi_Minh' object cannot be interpreted as an integer
+[2024-04-04T16:21:09.166+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:21:09.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.049 seconds
+[2024-04-04T16:21:39.496+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:21:39.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:21:39.497+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:21:39.497+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:21:39.509+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:21:39.507+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/callback.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/callback.py", line 23, in <module>
+    'start_date': pendulum.datetime(2024, 1, 1, hcm_tz)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+           ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/datetime.py", line 105, in create
+    dt = datetime.datetime(
+         ^^^^^^^^^^^^^^^^^^
+TypeError: 'Asia/Ho_Chi_Minh' object cannot be interpreted as an integer
+[2024-04-04T16:21:39.510+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:21:39.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.047 seconds
+[2024-04-04T16:22:09.905+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:22:09.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:22:09.906+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:22:09.906+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:22:09.917+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:22:09.915+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/callback.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/callback.py", line 23, in <module>
+    'start_date': pendulum.datetime(2024, 1, 1, hcm_tz)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+           ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/datetime.py", line 105, in create
+    dt = datetime.datetime(
+         ^^^^^^^^^^^^^^^^^^
+TypeError: 'Asia/Ho_Chi_Minh' object cannot be interpreted as an integer
+[2024-04-04T16:22:09.917+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:22:09.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.047 seconds
+[2024-04-04T16:22:40.303+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:22:40.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:22:40.308+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:22:40.307+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:22:40.326+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:22:40.324+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/callback.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/callback.py", line 23, in <module>
+    'start_date': pendulum.datetime(2024, 1, 1, hcm_tz)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+           ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pendulum/datetime.py", line 105, in create
+    dt = datetime.datetime(
+         ^^^^^^^^^^^^^^^^^^
+TypeError: 'Asia/Ho_Chi_Minh' object cannot be interpreted as an integer
+[2024-04-04T16:22:40.326+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:22:40.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.051 seconds
+[2024-04-04T16:22:54.721+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:22:54.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:22:54.725+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:22:54.724+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:22:54.755+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:22:54.833+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:22:54.833+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:22:54.843+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:22:54.843+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:22:54.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.153 seconds
+[2024-04-04T16:22:55.795+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:22:55.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:22:55.797+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:22:55.797+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:22:55.811+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:22:55.842+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:22:55.841+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:22:55.857+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:22:55.856+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:22:55.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.087 seconds
+[2024-04-04T16:23:16.864+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:23:16.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:23:16.865+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:16.865+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:23:16.897+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:23:16.913+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:16.913+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:23:16.923+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:16.923+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:23:16.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.082 seconds
+[2024-04-04T16:23:17.921+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:23:17.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:23:17.923+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:17.923+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:23:17.953+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:23:17.976+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:17.976+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:23:17.988+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:17.988+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:23:18.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.093 seconds
+[2024-04-04T16:23:22.075+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:23:22.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:23:22.078+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:22.077+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:23:22.101+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:23:22.127+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:22.126+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:23:22.139+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:22.139+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:23:22.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.087 seconds
+[2024-04-04T16:23:52.379+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:23:52.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:23:52.381+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:52.381+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:23:52.400+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:23:52.493+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:52.493+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:23:52.501+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:23:52.500+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:23:52.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.150 seconds
+[2024-04-04T16:24:22.931+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:24:22.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:24:22.933+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:24:22.933+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:24:22.945+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:24:22.970+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:24:22.970+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:24:22.980+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:24:22.980+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:24:23.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.073 seconds
+[2024-04-04T16:24:53.360+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:24:53.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:24:53.362+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:24:53.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:24:53.373+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:24:53.398+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:24:53.398+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:24:53.407+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:24:53.407+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:24:53.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.067 seconds
+[2024-04-04T16:25:23.781+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:25:23.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:25:23.782+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:25:23.782+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:25:23.797+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:25:23.824+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:25:23.824+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:25:23.833+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:25:23.833+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:25:23.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.074 seconds
+[2024-04-04T16:25:54.013+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:25:54.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:25:54.014+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:25:54.014+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:25:54.027+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:25:54.059+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:25:54.059+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:25:54.070+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:25:54.070+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:25:54.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.081 seconds
+[2024-04-04T16:26:24.539+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:26:24.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:26:24.543+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:26:24.543+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:26:24.576+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:26:24.609+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:26:24.609+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:26:24.618+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:26:24.618+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:26:24.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.101 seconds
+[2024-04-04T16:26:54.869+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:26:54.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:26:54.871+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:26:54.870+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:26:54.887+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:26:54.920+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:26:54.920+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:26:54.930+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:26:54.929+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:26:54.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.086 seconds
+[2024-04-04T16:27:25.371+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:27:25.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:27:25.372+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:27:25.372+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:27:25.384+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:27:25.412+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:27:25.412+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:27:25.422+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:27:25.422+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:27:25.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.072 seconds
+[2024-04-04T16:27:55.712+0000] {processor.py:161} INFO - Started process (PID=426) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:27:55.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:27:55.714+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:27:55.714+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:27:55.727+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:27:55.764+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:27:55.764+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:27:55.776+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:27:55.776+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:27:55.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.094 seconds
+[2024-04-04T16:28:26.182+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/callback.py
+[2024-04-04T16:28:26.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/callback.py for tasks to queue
+[2024-04-04T16:28:26.186+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:28:26.185+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/callback.py
+[2024-04-04T16:28:26.199+0000] {processor.py:840} INFO - DAG(s) 'callback' retrieved from /opt/airflow/dags/callback.py
+[2024-04-04T16:28:26.222+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:28:26.221+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-04T16:28:26.231+0000] {logging_mixin.py:188} INFO - [2024-04-04T16:28:26.231+0000] {dag.py:3834} INFO - Setting next_dagrun for callback to None, run_after=None
+[2024-04-04T16:28:26.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/callback.py took 0.070 seconds

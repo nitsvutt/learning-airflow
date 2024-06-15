@@ -1,0 +1,29 @@
+[2024-03-01T15:47:43.926+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=pool/run_id=scheduled__2024-01-07T00:00:00+00:00/task_id=task_3 permission to 509
+[2024-03-01T15:47:43.928+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=pool/run_id=scheduled__2024-01-07T00:00:00+00:00 permission to 509
+[2024-03-01T15:47:43.929+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=pool permission to 509
+[2024-03-01T15:47:43.930+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs permission to 509
+[2024-03-01T15:47:43.976+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=pool/run_id=scheduled__2024-01-07T00:00:00+00:00/task_id=task_3 permission to 509
+[2024-03-01T15:47:43.978+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=pool/run_id=scheduled__2024-01-07T00:00:00+00:00 permission to 509
+[2024-03-01T15:47:43.980+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=pool permission to 509
+[2024-03-01T15:47:43.980+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs permission to 509
+[2024-03-01T15:47:44.017+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pool.task_3 scheduled__2024-01-07T00:00:00+00:00 [queued]>
+[2024-03-01T15:47:44.024+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pool.task_3 scheduled__2024-01-07T00:00:00+00:00 [queued]>
+[2024-03-01T15:47:44.024+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2024-03-01T15:47:44.036+0000] {taskinstance.py:2214} INFO - Executing <Task(BashOperator): task_3> on 2024-01-07 00:00:00+00:00
+[2024-03-01T15:47:44.040+0000] {standard_task_runner.py:60} INFO - Started process 885 to run task
+[2024-03-01T15:47:44.042+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pool', 'task_3', 'scheduled__2024-01-07T00:00:00+00:00', '--job-id', '214', '--raw', '--subdir', 'DAGS_FOLDER/pool.py', '--cfg-path', '/tmp/tmphtx3qz06']
+[2024-03-01T15:47:44.043+0000] {standard_task_runner.py:88} INFO - Job 214: Subtask task_3
+[2024-03-01T15:47:44.133+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=pool/run_id=scheduled__2024-01-07T00:00:00+00:00/task_id=task_3 permission to 509
+[2024-03-01T15:47:44.134+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=pool/run_id=scheduled__2024-01-07T00:00:00+00:00 permission to 509
+[2024-03-01T15:47:44.136+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=pool permission to 509
+[2024-03-01T15:47:44.138+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs permission to 509
+[2024-03-01T15:47:44.139+0000] {task_command.py:423} INFO - Running <TaskInstance: pool.task_3 scheduled__2024-01-07T00:00:00+00:00 [running]> on host 68829ac68ce6
+[2024-03-01T15:47:44.285+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vutt' AIRFLOW_CTX_DAG_ID='pool' AIRFLOW_CTX_TASK_ID='task_3' AIRFLOW_CTX_EXECUTION_DATE='2024-01-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-07T00:00:00+00:00'
+[2024-03-01T15:47:44.286+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-01T15:47:44.287+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo task_3']
+[2024-03-01T15:47:44.294+0000] {subprocess.py:86} INFO - Output:
+[2024-03-01T15:47:44.295+0000] {subprocess.py:93} INFO - task_3
+[2024-03-01T15:47:44.295+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-01T15:47:44.358+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pool, task_id=task_3, execution_date=20240107T000000, start_date=20240301T154744, end_date=20240301T154744
+[2024-03-01T15:47:44.375+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-01T15:47:44.400+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

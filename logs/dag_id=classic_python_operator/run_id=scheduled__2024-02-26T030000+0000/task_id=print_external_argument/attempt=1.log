@@ -1,0 +1,14 @@
+[2024-02-27T15:50:26.692+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: classic_python_operator.print_external_argument scheduled__2024-02-26T03:00:00+00:00 [queued]>
+[2024-02-27T15:50:26.699+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: classic_python_operator.print_external_argument scheduled__2024-02-26T03:00:00+00:00 [queued]>
+[2024-02-27T15:50:26.699+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2024-02-27T15:50:26.708+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): print_external_argument> on 2024-02-26 03:00:00+00:00
+[2024-02-27T15:50:26.712+0000] {standard_task_runner.py:60} INFO - Started process 443 to run task
+[2024-02-27T15:50:26.713+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'classic_python_operator', 'print_external_argument', 'scheduled__2024-02-26T03:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/classic_python_operator.py', '--cfg-path', '/tmp/tmp8vtwwhv7']
+[2024-02-27T15:50:26.714+0000] {standard_task_runner.py:88} INFO - Job 7: Subtask print_external_argument
+[2024-02-27T15:50:26.774+0000] {task_command.py:423} INFO - Running <TaskInstance: classic_python_operator.print_external_argument scheduled__2024-02-26T03:00:00+00:00 [running]> on host 1927bc465fbc
+[2024-02-27T15:50:26.886+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vutt' AIRFLOW_CTX_DAG_ID='classic_python_operator' AIRFLOW_CTX_TASK_ID='print_external_argument' AIRFLOW_CTX_EXECUTION_DATE='2024-02-26T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-26T03:00:00+00:00'
+[2024-02-27T15:50:26.887+0000] {logging_mixin.py:188} INFO - vutt
+[2024-02-27T15:50:26.887+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-02-27T15:50:26.904+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=classic_python_operator, task_id=print_external_argument, execution_date=20240226T030000, start_date=20240227T155026, end_date=20240227T155026
+[2024-02-27T15:50:26.926+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-27T15:50:26.949+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

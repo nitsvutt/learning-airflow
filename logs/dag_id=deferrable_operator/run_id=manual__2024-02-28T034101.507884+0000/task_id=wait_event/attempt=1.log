@@ -1,0 +1,24 @@
+[2024-02-28T03:41:01.963+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=deferrable_operator/run_id=manual__2024-02-28T03:41:01.507884+00:00/task_id=wait_event permission to 509
+[2024-02-28T03:41:01.964+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=deferrable_operator/run_id=manual__2024-02-28T03:41:01.507884+00:00 permission to 509
+[2024-02-28T03:41:01.965+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=deferrable_operator permission to 509
+[2024-02-28T03:41:01.965+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs permission to 509
+[2024-02-28T03:41:02.015+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=deferrable_operator/run_id=manual__2024-02-28T03:41:01.507884+00:00/task_id=wait_event permission to 509
+[2024-02-28T03:41:02.016+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=deferrable_operator/run_id=manual__2024-02-28T03:41:01.507884+00:00 permission to 509
+[2024-02-28T03:41:02.017+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=deferrable_operator permission to 509
+[2024-02-28T03:41:02.017+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs permission to 509
+[2024-02-28T03:41:02.047+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: deferrable_operator.wait_event manual__2024-02-28T03:41:01.507884+00:00 [queued]>
+[2024-02-28T03:41:02.053+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: deferrable_operator.wait_event manual__2024-02-28T03:41:01.507884+00:00 [queued]>
+[2024-02-28T03:41:02.053+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 3
+[2024-02-28T03:41:02.063+0000] {taskinstance.py:2214} INFO - Executing <Task(WaitFiveMinutesSensor): wait_event> on 2024-02-28 03:41:01.507884+00:00
+[2024-02-28T03:41:02.067+0000] {standard_task_runner.py:60} INFO - Started process 1400 to run task
+[2024-02-28T03:41:02.068+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'deferrable_operator', 'wait_event', 'manual__2024-02-28T03:41:01.507884+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/deferrable_operator.py', '--cfg-path', '/tmp/tmppfu2mog7']
+[2024-02-28T03:41:02.070+0000] {standard_task_runner.py:88} INFO - Job 60: Subtask wait_event
+[2024-02-28T03:41:02.153+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=deferrable_operator/run_id=manual__2024-02-28T03:41:01.507884+00:00/task_id=wait_event permission to 509
+[2024-02-28T03:41:02.154+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=deferrable_operator/run_id=manual__2024-02-28T03:41:01.507884+00:00 permission to 509
+[2024-02-28T03:41:02.156+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=deferrable_operator permission to 509
+[2024-02-28T03:41:02.159+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs permission to 509
+[2024-02-28T03:41:02.162+0000] {task_command.py:423} INFO - Running <TaskInstance: deferrable_operator.wait_event manual__2024-02-28T03:41:01.507884+00:00 [running]> on host 68829ac68ce6
+[2024-02-28T03:41:02.285+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vutt' AIRFLOW_CTX_DAG_ID='deferrable_operator' AIRFLOW_CTX_TASK_ID='wait_event' AIRFLOW_CTX_EXECUTION_DATE='2024-02-28T03:41:01.507884+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-28T03:41:01.507884+00:00'
+[2024-02-28T03:46:02.312+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=deferrable_operator, task_id=wait_event, execution_date=20240228T034101, start_date=20240228T034102, end_date=20240228T034602
+[2024-02-28T03:46:02.364+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-28T03:46:02.400+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

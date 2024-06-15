@@ -1,0 +1,14 @@
+[2024-06-15T02:49:35.255+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: type_1_dag_1.check_condictions manual__2024-06-15T02:49:34.418276+00:00 [queued]>
+[2024-06-15T02:49:35.262+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: type_1_dag_1.check_condictions manual__2024-06-15T02:49:34.418276+00:00 [queued]>
+[2024-06-15T02:49:35.262+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-06-15T02:49:35.280+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): check_condictions> on 2024-06-15 02:49:34.418276+00:00
+[2024-06-15T02:49:35.283+0000] {standard_task_runner.py:60} INFO - Started process 326 to run task
+[2024-06-15T02:49:35.285+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'type_1_dag_1', 'check_condictions', 'manual__2024-06-15T02:49:34.418276+00:00', '--job-id', '246', '--raw', '--subdir', 'DAGS_FOLDER/dynamic_dag_generator_type_1.py', '--cfg-path', '/tmp/tmp5e9qp7mq']
+[2024-06-15T02:49:35.286+0000] {standard_task_runner.py:88} INFO - Job 246: Subtask check_condictions
+[2024-06-15T02:49:35.374+0000] {task_command.py:423} INFO - Running <TaskInstance: type_1_dag_1.check_condictions manual__2024-06-15T02:49:34.418276+00:00 [running]> on host f40fd05c3e15
+[2024-06-15T02:49:35.560+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vutt' AIRFLOW_CTX_DAG_ID='type_1_dag_1' AIRFLOW_CTX_TASK_ID='check_condictions' AIRFLOW_CTX_EXECUTION_DATE='2024-06-15T02:49:34.418276+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-15T02:49:34.418276+00:00'
+[2024-06-15T02:49:35.562+0000] {logging_mixin.py:188} INFO - check some condictions for type_1_dag_1
+[2024-06-15T02:49:35.562+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-06-15T02:49:35.589+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=type_1_dag_1, task_id=check_condictions, execution_date=20240615T024934, start_date=20240615T024935, end_date=20240615T024935
+[2024-06-15T02:49:35.618+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-06-15T02:49:35.657+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
