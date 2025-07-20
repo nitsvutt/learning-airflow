@@ -27,18 +27,20 @@ Apache Airflow is an open-source platform for developing, scheduling, and monito
 </p>
 
 This is the simplest deployment of Apache Airflow:
-- **Webserver:** The UI of Apache Airflow, which is used to manage user's Directed Acyclic Graphs (DAGs), configurations, and other features of Apache Airflow.
-- **Scheduler:** The most important part of Apache Airflow scheduling and orchestrating DAGs and tasks, managing their runs and their dependencies.
-- **Executor:** Components that actually execute tasks.
-- **Metadata Database:** The database storing metadata about DAGs, their runs' states and other configurations like users, roles, connections,...
+- **Webserver:** presents a handy user interface to inspect, trigger and debug the behavior of DAGs and tasks.
+- **Scheduler:** triggers scheduled workflows and submits tasks to the executor to run.
+- **Metadata Database:** stores state of workflows and tasks.
+- **DAG Folder:** is read by the scheduler to figure out what tasks to run and when to run them.
+- **Dag Processor:** parses DAG files and serializes them into the metadata database.
+- **Executor:** execute tasks within the scheduler process.
 
 <div id="work"/>
 
 ## 3. How does Apache Airflow work
 
-- First, users define python files that describes the arguments, the tasks and the dependencies of the DAG and locate in the DAG folder.
-- After that, the **Scheduler** reads those files, submits the defined tasks to the executor to run and writes DAG's information to the **Metadata DB**.
-- Now, users can view their DAG through the **Webserver** reading DAG's information from the **Metadata DB** to illustrate, trigger those start or stop and interact with other configurations.
+- First, users create python DAG files that define DAGs, arguments, tasks, and the dependencies between them, and locate in the **DAG Folder**.
+- After that, the Dag Processor parses those files and writes DAG's information to the **Metadata DB**, then the **Scheduler** triggers scheduled workflows, submits the defined tasks to the executor to run.
+- Now, users can view their DAG through the **Webserver** reading DAG's information from the **Metadata DB**, trigger those start or stop and interact with other configurations.
 
 <div id="set-up"/>
 
